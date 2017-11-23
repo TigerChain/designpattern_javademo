@@ -5,7 +5,6 @@ package observer.xiaoming;
  * 妈妈
  */
 public class MomCallbackImpl implements ICallback {
-
     // 让小明去干某些事情
     public void say(XiaoMing xiaoMing,String str){
         xiaoMing.work(this,str);

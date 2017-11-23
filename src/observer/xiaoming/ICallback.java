@@ -5,6 +5,5 @@ package observer.xiaoming;
  * 定义一个回调接口
  */
 public interface ICallback {
-
     void setResult(String str) ;
 }
