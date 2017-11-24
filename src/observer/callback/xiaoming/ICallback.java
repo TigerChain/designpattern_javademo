@@ -1,4 +1,4 @@
-package observer.xiaoming;
+package observer.callback.xiaoming;
 
 /**
  * Created by TigerChain
