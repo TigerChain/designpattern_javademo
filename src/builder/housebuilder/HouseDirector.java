@@ -5,7 +5,7 @@ package builder.housebuilder;
  * 设计师
  */
 public class HouseDirector {
-
+    // 指挥包工头
     public void buildHouse(HouseBuilder houseBuilder){
         houseBuilder.doFoundation();
         houseBuilder.doFrame();

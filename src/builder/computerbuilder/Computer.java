@@ -120,13 +120,13 @@ public class Computer {
         return "Computer{" +
                 "mainBoard='" + mainBoard + '\'' +
                 ", cpu='" + cpu + '\'' +
-                ", hd='" + hd + '\'' +
+                "\n, hd='" + hd + '\'' +
                 ", powerSupplier='" + powerSupplier + '\'' +
-                ", graphicsCard='" + graphicsCard + '\'' +
+                "\n, graphicsCard='" + graphicsCard + '\'' +
                 ", mouse='" + mouse + '\'' +
-                ", computerCase='" + computerCase + '\'' +
+                "\n, computerCase='" + computerCase + '\'' +
                 ", mousePad='" + mousePad + '\'' +
-                ", other='" + other + '\'' +
+                "\n, other='" + other + '\'' +
                 '}';
     }
 }

@@ -19,7 +19,7 @@ public class Test {
         System.out.println(house.getPouring());
 
 
-        // 方式二、客户找一个建造者盖房子，但是要知道如何盖房子「调用建造者盖房子的顺序」
+        // 方式二、客户找一个建造者盖房子「充当包工头角色」，但是要知道如何盖房子「调用建造者盖房子的顺序」
         System.out.println("========客户直接找盖房子的工人「建造者」，客户要调用建造者方法去盖房子，客户必须得知道房子如何造========");
 
         HouseBuilder houseBuilder = new PingFangBuilder() ;
@@ -42,6 +42,5 @@ public class Test {
         System.out.println(houseCreateByBuilder.getFoundation());
         System.out.println(houseCreateByBuilder.getFrame());
         System.out.println(houseCreateByBuilder.getPouring());
-
     }
 }

@@ -11,6 +11,6 @@ public interface HouseBuilder {
     void doFrame() ;
     // 浇灌
     void dpPouring() ;
-
+    // 房子建成
     House getHouse() ;
 }

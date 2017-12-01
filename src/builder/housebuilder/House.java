@@ -12,7 +12,6 @@ public class House {
     // 浇筑
     private String pouring ;
 
-
     public String getFoundation() {
         return foundation;
     }
