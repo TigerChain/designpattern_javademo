@@ -17,6 +17,6 @@ public abstract class ExaminationPage {
         this.yingYongTi();
         this.getresult() ;
     }
-
+    // 得分
     public abstract String getresult() ;
 }
