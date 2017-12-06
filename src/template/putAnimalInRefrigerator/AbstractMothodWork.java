@@ -13,7 +13,7 @@ public abstract class AbstractMothodWork {
     abstract void close() ;
 
     // 模版方法
-    public void handle(IRefrige iRefrige,Animail animail){
+    public final void handle(IRefrige iRefrige,Animail animail){
         this.open(iRefrige);
         this.putin(animail);
         this.close();

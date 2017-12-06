@@ -18,7 +18,7 @@ public class Test {
 //        work.handle(panasonnicRefrige,elephant);
 
 
-
+        // 使用回调方法实现模版方法
         ConCreateTemplate conCreateTemplate = new ConCreateTemplate() ;
         conCreateTemplate.handle(panasonnicRefrige, elephant, new ITemplate() {
             @Override

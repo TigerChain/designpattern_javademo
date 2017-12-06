@@ -1,7 +1,8 @@
 package template.putAnimalInRefrigerator;
 
 /**
- * Created by 0.0 on 2017/12/5.
+ * Created by TigerChain
+ * 使用回调代替模版功能
  */
 public interface ITemplate {
     // 打开冰箱
